@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "冀柳冲" => "HH330897537@163.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/loversunny/LCScrollMenuView.git" }
-  #s.source       = { :git => "https://github.com/loversunny/LCScrollMenuView.git",:tag => "v#{s.version}" }
+  #s.source       = { :git => "https://github.com/loversunny/LCScrollMenuView.git" }
+  s.source       = { :git => "https://github.com/loversunny/LCScrollMenuView.git",:tag => "v#{s.version}" }
   s.source_files  = "LCScrollMenuView/*.{h,m}"
   s.framework  = "UIKit"
   s.requires_arc = true
